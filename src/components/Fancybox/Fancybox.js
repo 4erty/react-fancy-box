@@ -13,7 +13,7 @@ export default class Fancybox extends Component {
     this.state = {
       files: props.files,
       selected: props.selected || 0,
-    }
+    };
 
     this.nextFile = this.nextFile.bind(this);
     this.previousFile = this.previousFile.bind(this);
